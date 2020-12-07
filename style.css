@@ -1,0 +1,73 @@
+body {
+    width: auto;
+    display: block;
+    margin: 0 100px;
+    text-align: center;
+    background-color: #9fbdf6;
+    font-family: 'Ranchers', cursive;
+    background-image: url(backg.jpg);
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+h2 {
+    color: #fff;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    width: 600px;
+    margin: 20px auto;
+    height: 50px;
+    padding: 20px;
+}
+
+h1:hover {
+    color: rgb(64, 195, 47);
+    transition: color 2s ease-in-out;
+    font-size: 40px;
+    transition: font-size 1s ease-in-out;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:2px 2px 6px 10px rgb(60, 18, 126);
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 5px;
+}
+
+button:hover {
+    color: rgb(64, 195, 47);
+    transition: color 2s ease-in-out;
+    font-size: 30px;
+    transition: font-size 1s ease-in-out;
+}
+
+.game-container {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    box-shadow: 2px 6px 10px rgb(60, 18, 126);
+    margin: 0 auto;
+    width: 600px;
+}
+
+.cell {
+    border: 1px solid rgb(60, 18, 126);
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    height: 70px;
+    width: 200px;
+}
+
+.cell:hover {
+    border: 1px solid rgb(64, 195, 47);
+    cursor: grab;
+}
